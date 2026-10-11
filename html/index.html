@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT - Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <a class="logo" href="index.html">ChatGPT</a>
+
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="index.html">Main</a>
+            <a href="images.html">Images</a>
+            <a href="agent.html">Agent</a>
+        </nav>
+
+
+        <section class="account-actions" aria-label="Account">
+            <button type="button" class="login">Log in</button>
+            <button type="button" class="signup">Sign up for free</button>
+            <button type="button" class="help" aria-label="Help">?</button>
+        </section>
+    </header>
+
+    <main class="main-content">
+        <h1>What's on the agenda today?</h1>
+
+        <form class="chat-box" method="get">
+            <label for="prompt" class="visually-hidden">Your message</label>
+            <input type="text" id="prompt" name="prompt" placeholder="Ask anything">
+
+            <section class="tools" aria-label="Chat tools">
+                <button type="button">♧ Attach</button>
+                <button type="button">◎ Search</button>
+                <button type="button">◫ Study</button>
+                <a class="tool-link" href="images.html">▧ Create image</a>
+            </section>
+
+            <button class="voice" type="button">◖ Voice</button>
+        </form>
+    </main>
+</body>
+
+</html>

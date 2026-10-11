@@ -1,0 +1,194 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #202020;
+    background: linear-gradient(
+        180deg,
+        #f0d2f8 0%,
+        #f9e4f7 20%,
+        #fff0e6 35%,
+        #ffffff 65%
+    );
+}
+
+.top-bar {
+    height: 65px;
+    position: relative;
+    padding: 17px 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: #222;
+    text-decoration: none;
+    font-size: 22px;
+font-weight: 700;
+letter-spacing: -0.7px;
+}
+
+.logo-icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.navigation {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 0 12px;
+    color: #555;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+.account-actions {
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}
+
+.account-actions button {
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.login {
+    background-color: #111;
+    color: white;
+}
+
+.signup {
+    background-color: white;
+    color: #222;
+    border: 1px solid #ddd;
+}
+
+.account-actions .help {
+    padding: 3px 7px;
+    margin-left: 6px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    color: #333;
+}
+
+.content {
+    width: 90%;
+    max-width: 620px;
+    margin: 15px auto 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.section-header {
+    position: relative;
+    margin-bottom: 17px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.arrows {
+    position: absolute;
+    right: 0;
+    top: -7px;
+    color: #777;
+    font-size: 20px;
+}
+
+.gallery {
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.gallery figure {
+    display: inline-block;
+    width: 15.5%;
+    margin: 0 1.4% 0 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+.gallery figure:last-child {
+    margin-right: 0;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: 142px;
+    object-fit: cover;
+    border-radius: 11px;
+}
+
+.gallery figcaption {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #999;
+    line-height: 1.4;
+}
+
+.discover {
+    margin-top: 43px;
+}
+
+.discover .section-header {
+    margin-bottom: 15px;
+}
+
+.discover-column {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.discover-item {
+    height: 55px;
+    white-space: nowrap;
+}
+
+.discover-item img {
+    width: 39px;
+    height: 39px;
+    border-radius: 9px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.discover-item p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9px;
+    color: #888;
+    font-size: 11px;
+    max-width: calc(100% - 55px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
